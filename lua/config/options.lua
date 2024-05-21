@@ -1,4 +1,6 @@
-opts = {
+{
+  "neovim/nvim-lspconfig",
+  opts = {
   servers = {
     -- Ensure mason installs the server
     clangd = {
@@ -44,4 +46,5 @@ opts = {
       return false
     end,
   },
+},
 }
